@@ -149,7 +149,148 @@ const questions: Question[] = [
     options: ["Ender Dragon", "Wither", "Elder Guardian", "Warden"],
     correctAnswer: 0,
     explanation: "The Ender Dragon drops 12,000 XP when first defeated!"
+  },
+  {
+    id: 21,
+    question: "Which mob can be tamed using bones?",
+    options: ["Cat", "Wolf", "Parrot", "Fox"],
+    correctAnswer: 1,
+    explanation: "Wolves can be tamed with bones and become loyal dogs!"
+  },
+  {
+    id: 22,
+    question: "What do Creepers drop when killed?",
+    options: ["Gunpowder", "TNT", "Coal", "Slimeballs"],
+    correctAnswer: 0,
+    explanation: "Creepers drop Gunpowder, which can be used to make TNT or fireworks!"
+  },
+  {
+    id: 23,
+    question: "Which item is needed to craft a brewing stand?",
+    options: ["Blaze Rod", "Ghast Tear", "Magma Cream", "End Rod"],
+    correctAnswer: 0,
+    explanation: "A Blaze Rod is required to craft a Brewing Stand for making potions!"
+  },
+  {
+    id: 24,
+    question: "What is the effect of eating a Chorus Fruit?",
+    options: ["Gives regeneration", "Random teleport", "Restores full hunger", "Grants invisibility"],
+    correctAnswer: 1,
+    explanation: "Chorus Fruit randomly teleports you a few blocks when eaten!"
+  },
+  {
+    id: 25,
+    question: "Which enchantment prevents you from dying in lava?",
+    options: ["Fire Protection", "Flame", "Respiration", "Feather Falling"],
+    correctAnswer: 0,
+    explanation: "Fire Protection reduces fire and lava damage, making survival easier!"
+  },
+  {
+    id: 26,
+    question: "What item do you need to enter the Nether?",
+    options: ["Flint and Steel", "Torch", "Redstone", "Beacon"],
+    correctAnswer: 0,
+    explanation: "Flint and Steel is used to light the Nether Portal made of obsidian!"
+  },
+  {
+    id: 27,
+    question: "Which fish can be used to tame a cat?",
+    options: ["Cod", "Pufferfish", "Salmon", "Tropical Fish"],
+    correctAnswer: 2,
+    explanation: "Cats are usually tamed with raw Salmon or raw Cod!"
+  },
+  {
+    id: 28,
+    question: "Which mob is immune to lava and fire?",
+    options: ["Zombie Pigman", "Blaze", "Magma Cube", "All of the above"],
+    correctAnswer: 3,
+    explanation: "Zombie Pigmen, Blazes, and Magma Cubes are all immune to fire and lava!"
+  },
+  {
+    id: 29,
+    question: "Which block can transport players upward like an elevator?",
+    options: ["Soul Sand", "Magma Block", "Slime Block", "Honey Block"],
+    correctAnswer: 0,
+    explanation: "Soul Sand with water creates bubble columns that push players upward!"
+  },
+  {
+    id: 30,
+    question: "Which music disc is considered the rarest?",
+    options: ["Cat", "Pigstep", "Ward", "13"],
+    correctAnswer: 1,
+    explanation: "Pigstep is the rarest disc, only found in Bastion Remnants in the Nether!"
+  },
+  {
+    id: 31,
+    question: "What effect does a Golden Apple give?",
+    options: ["Speed", "Regeneration", "Night Vision", "Levitation"],
+    correctAnswer: 1,
+    explanation: "Golden Apples give Regeneration and Absorption effects!"
+  },
+  {
+    id: 32,
+    question: "Which mob explodes when close to players?",
+    options: ["Creeper", "Ghast", "Slime", "Phantom"],
+    correctAnswer: 0,
+    explanation: "Creepers are infamous for silently sneaking up and exploding!"
+  },
+  {
+    id: 33,
+    question: "What is required to respawn the Ender Dragon?",
+    options: ["Dragon Egg", "Ender Pearls", "End Crystals", "Obsidian"],
+    correctAnswer: 2,
+    explanation: "You need four End Crystals placed around the portal to respawn the Ender Dragon!"
+  },
+  {
+    id: 34,
+    question: "What happens if you sleep in the Nether?",
+    options: ["You set spawn", "Nothing", "The bed explodes", "You teleport to Overworld"],
+    correctAnswer: 2,
+    explanation: "Beds explode if used in the Nether or the End!"
+  },
+  {
+    id: 35,
+    question: "Which block is needed to craft a Jack o’ Lantern?",
+    options: ["Pumpkin + Torch", "Pumpkin + Glowstone", "Pumpkin + Redstone", "Pumpkin + Lantern"],
+    correctAnswer: 0,
+    explanation: "A carved Pumpkin combined with a Torch makes a Jack o’ Lantern!"
+  },
+  {
+    id: 36,
+    question: "What is the durability of a Netherite Pickaxe?",
+    options: ["1561", "2031", "3122", "4096"],
+    correctAnswer: 1,
+    explanation: "A Netherite Pickaxe has 2031 durability, the highest of all pickaxes!"
+  },
+  {
+    id: 37,
+    question: "Which mob can fly through walls?",
+    options: ["Bat", "Phantom", "Vex", "Ghast"],
+    correctAnswer: 2,
+    explanation: "Vexes, summoned by Evokers, can fly and phase through walls!"
+  },
+  {
+    id: 38,
+    question: "What is the rarest naturally spawning structure?",
+    options: ["Woodland Mansion", "Ocean Monument", "Stronghold", "Igloo"],
+    correctAnswer: 0,
+    explanation: "Woodland Mansions are the rarest and only spawn in Dark Forest biomes!"
+  },
+  {
+    id: 39,
+    question: "Which enchantment increases block drops?",
+    options: ["Looting", "Silk Touch", "Fortune", "Efficiency"],
+    correctAnswer: 2,
+    explanation: "Fortune increases the number of items dropped from ores and blocks!"
+  },
+  {
+    id: 40,
+    question: "Which hostile mob burns in sunlight?",
+    options: ["Zombie", "Creeper", "Spider", "Slime"],
+    correctAnswer: 0,
+    explanation: "Zombies burn in sunlight unless wearing a helmet or in shade!"
   }
+
 ];
 
 function App() {
